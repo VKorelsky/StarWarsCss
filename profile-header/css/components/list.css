@@ -1,0 +1,29 @@
+.enemy{
+  display: flex;
+  padding: 20px;
+  margin: 10px 0;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.enemy-fame{
+  transition: all 0.5s ease;
+}
+.enemy-picture{
+  width: 250px;
+}
+
+.enemy-body{
+  text-align: left;
+  flex: 0 0 61%;
+}
+
+.enemy:hover{
+  background: #f7f7fa;
+  cursor: pointer;
+}
+
+.enemy:hover .enemy-fame {
+  transform: scale(1.1);
+}
