@@ -26,3 +26,8 @@
   color: black;
   border-radius: 8px;
 }
+
+.light-hover:hover{
+  color: #daa520;
+}
+
